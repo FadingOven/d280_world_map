@@ -1,0 +1,46 @@
+#map {
+    width: 100%;
+    min-height: 300px;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+
+}
+
+.map-column {
+    float: left;
+    display: block; 
+    width: 75%;}
+
+.country-column {
+    float: right;
+    width: 25%;
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+
+.country-info {
+padding: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 80%;
+
+}
+
+.info-table tr td:nth-child(2n+1) {
+    font-weight: bold;
+    width: 150px;
+}
+
+
+caption {
+    font-size: 22px;
+    padding: 12px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
